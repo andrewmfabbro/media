@@ -1,5 +1,38 @@
 {
-"users": [{"id": 1, "name": "Myra" }],
-"albums": [],
-"photos": []
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Leon Jerde",
+      "id": 2
+    },
+    {
+      "name": "Lois Brown Jr.",
+      "id": 3
+    },
+    {
+      "name": "Shari DuBuque III",
+      "id": 4
+    },
+    {
+      "name": "Luther Nader",
+      "id": 5
+    },
+    {
+      "name": "Carolyn Cremin",
+      "id": 6
+    },
+    {
+      "name": "Homer Heidenreich",
+      "id": 7
+    },
+    {
+      "name": "Erick Weissnat",
+      "id": 8
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
