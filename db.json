@@ -85,6 +85,17 @@
       "id": 33
     }
   ],
-  "albums": [],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 1,
+      "title": "Practical Wooden Towels",
+      "id": 11
+    }
+  ],
   "photos": []
 }
