@@ -87,24 +87,9 @@
   ],
   "albums": [
     {
-      "id": 10,
-      "title": "Hiking Trip",
-      "userId": 1
-    },
-    {
       "userId": 1,
       "title": "Practical Wooden Towels",
       "id": 11
-    },
-    {
-      "userId": 1,
-      "title": "Unbranded Frozen Hat",
-      "id": 12
-    },
-    {
-      "userId": 1,
-      "title": "Generic Concrete Chair",
-      "id": 13
     },
     {
       "userId": 1,
@@ -112,14 +97,19 @@
       "id": 14
     },
     {
-      "userId": 1,
-      "title": "Awesome Granite Ball",
-      "id": 15
+      "userId": 3,
+      "title": "Modern Soft Chips",
+      "id": 17
     },
     {
       "userId": 1,
-      "title": "Modern Bronze Pizza",
-      "id": 16
+      "title": "Intelligent Metal Fish",
+      "id": 18
+    },
+    {
+      "userId": 4,
+      "title": "Sleek Rubber Hat",
+      "id": 19
     }
   ],
   "photos": []
