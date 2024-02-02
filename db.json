@@ -112,5 +112,21 @@
       "id": 19
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/150/150/abstract?lock=3729062159712256",
+      "id": 1
+    },
+    {
+      "albumId": 11,
+      "url": "https://picsum.photos/seed/oNkVnnk/640/480",
+      "id": 2
+    },
+    {
+      "albumId": 11,
+      "url": "https://loremflickr.com/640/480?lock=5481820682452992",
+      "id": 3
+    }
+  ]
 }
