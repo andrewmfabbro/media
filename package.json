@@ -51,5 +51,5 @@
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
     "tailwindcss": "^3.3.3"
   },
-  "homepage": "https://andrewmfabbro.github.io/media"
+  "homepage": "https://andrewmfabbro.github.io/media/"
 }
