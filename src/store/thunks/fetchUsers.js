@@ -3,18 +3,17 @@ import axios from "axios";
 
 // use async thunk to fetch users
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
-  const response = await axios.get("http://localhost:3005/users");
+  const response = await axios.get("https://my-json-server.typicode.com/andrewmfabbro/dummyJSON/users");
 
-  await pause(500); //DEV ONLY for loading spinner slows down loading intentionally
-
+  //await pause(500); //DEV ONLY for loading spinner slows down loading intentionally
   return response.data;
 });
 
 //DEVELOPMENT ONLY!!!
-const pause = (duration) => {
+/* const pause = (duration) => {
   return new Promise((resolve) => {
     setTimeout(resolve, duration);
   });
-};
+}; */
 
 export { fetchUsers };
