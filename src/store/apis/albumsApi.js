@@ -6,7 +6,7 @@ import { faker } from "@faker-js/faker";
 const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://my-json-server.typicode.com/andrewmfabbro/dummyJSON",
+    baseUrl: "http://localhost:3005",
   }),
   endpoints(builder) {
     return {
