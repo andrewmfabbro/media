@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker";
 const photosApi = createApi({
   reducerPath: "photos",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://json-server-vercel-pi-jet.vercel.app/" //"http://localhost:3005",
+    baseUrl: "http://localhost:3005",
   }),
   endpoints(builder) {
     return {

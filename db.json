@@ -120,6 +120,11 @@
       "userId": 1,
       "title": "Unbranded Rubber Fish",
       "id": 33
+    },
+    {
+      "userId": 33,
+      "title": "Refined Concrete Shoes",
+      "id": 34
     }
   ],
   "photos": [
@@ -212,6 +217,11 @@
       "albumId": 33,
       "url": "https://picsum.photos/seed/rhcYHVfYF/640/480",
       "id": 28
+    },
+    {
+      "albumId": 34,
+      "url": "https://loremflickr.com/640/480?lock=8016600928092160",
+      "id": 29
     }
   ]
 }
