@@ -43,7 +43,7 @@ function UsersList() {
         <Button loading={isCreatingUser} onClick={handleUserAdd}>
           + Add User
         </Button>
-        {creatingUserError}
+        {creatingUserError && "Error creating user. Please refresh page."}
       </div>
       {content}
     </div>
