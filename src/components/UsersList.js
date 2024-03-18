@@ -43,8 +43,9 @@ function UsersList() {
         <Button loading={isCreatingUser} onClick={handleUserAdd}>
           + Add User
         </Button>
-        {creatingUserError && "Error creating user."}
+        {creatingUserError}
       </div>
+      location.reload();
       {content}
     </div>
   );
