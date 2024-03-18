@@ -45,7 +45,6 @@ function UsersList() {
         </Button>
         {creatingUserError}
       </div>
-      location.reload();
       {content}
     </div>
   );
