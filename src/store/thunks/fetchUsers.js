@@ -1,3 +1,4 @@
+/*
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
@@ -14,6 +15,28 @@ const fetchUsers = createAsyncThunk("users/fetch", async () => {
   return new Promise((resolve) => {
     setTimeout(resolve, duration);
   });
-}; */
+}; 
+
+export { fetchUsers };
+*/
+
+
+import { createAsyncThunk } from "@reduxjs/toolkit";
+import { kv } from '@vercel/kv'; // Import Vercel KV
+
+// Use async thunk to fetch users
+const fetchUsers = createAsyncThunk("users/fetch", async () => {
+  try {
+    // Retrieve the list of user IDs from the KV store
+    const userIds = await kv.get("user-ids");
+    // Fetch each user using their ID
+    const users = await Promise.all(
+      userIds.map(async (id) => await kv.get(`user:${id}`))
+    );
+    return users;
+  } catch (error) {
+    throw error;
+  }
+});
 
 export { fetchUsers };
