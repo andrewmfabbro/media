@@ -28,11 +28,13 @@ import { kv } from '@vercel/kv'; // Import Vercel KV
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
   try {
     // Retrieve the list of user IDs from the KV store
-    const userIds = await kv.get("user-ids");
+    const userIds = await kv.get("https://media-five-psi.vercel.app/users");
+    console.log("OK 1");
     // Fetch each user using their ID
     const users = await Promise.all(
       userIds.map(async (id) => await kv.get(`user:${id}`))
     );
+    console.log("OK 2");
     return users;
   } catch (error) {
     throw error;
