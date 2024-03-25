@@ -74,7 +74,7 @@ import { faker } from "@faker-js/faker";
 
 const albumsApi = createApi({
   reducerPath: "albums",
-  baseQuery: fetchBaseQuery({ baseUrl: '/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://media-five-psi.vercel.app/' }),
   endpoints(builder) {
     return {
       removeAlbum: builder.mutation({

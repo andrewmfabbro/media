@@ -71,7 +71,7 @@ import { faker } from "@faker-js/faker";
 
 const photosApi = createApi({
   reducerPath: "photos",
-  baseQuery: fetchBaseQuery({ baseUrl: '/' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://media-five-psi.vercel.app/' }),
   endpoints(builder) {
     return {
       fetchPhotos: builder.query({
